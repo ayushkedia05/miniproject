@@ -1,0 +1,48 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .bar-chart,
+  .pie-chart {
+    width: 48%;
+  }
+  
+  .medical-info {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .medical-info p {
+    margin: 5px 0;
+  }
+  
+  /* Animation styles */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .chart-container,
+  .medical-info {
+    animation: fadeIn 1s ease-in-out;
+  }
+  

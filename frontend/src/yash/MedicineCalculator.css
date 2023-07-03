@@ -1,0 +1,122 @@
+.medicine-calculator-container {
+    width: 550px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .input-fields input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    flex: 1;
+  }
+  .sm{
+    padding-left:3px;
+  }
+  
+  .add-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right:-30px;
+    width:100px;
+    margin-right:10px;
+  }
+  
+  .medicine-list {
+    margin-bottom: 20px;
+  }
+  
+  .medicine-item {
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .total-amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .find-stores-button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .nearest-stores-list {
+    margin-top: 10px;
+  }
+  
+  .nearest-stores-list h3 {
+    margin-bottom: 10px;
+  }
+  
+  .nearest-stores-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nearest-stores-list li {
+    background-color: darkcyan;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .nearest-stores-list span {
+    display: block;
+  }
+  
+  /* Different Colors for Medical Names */
+  .medicine-name-1 {
+    background-color: #007bff;
+  }
+  
+  .medicine-name-2 {
+    background-color: #ffc107;
+  }
+  
+  .medicine-name-3 {
+    background-color: #28a745;
+  }
+  
+  .medicine-name-4 {
+    background-color: #dc3545;
+  }
+  
+  .medicine-name-5 {
+    background-color: #17a2b8;
+  }
+  
+  .medicine-name-6 {
+    background-color: #6610f2;
+  }
+  

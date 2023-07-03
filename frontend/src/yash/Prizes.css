@@ -1,0 +1,43 @@
+.prizes-container {
+    text-align: center;
+  }
+  
+  .achieve-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .prizes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .prize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    max-width: 200px;
+  }
+  
+  .prize-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .prize-name {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Add additional styling as needed */
+  

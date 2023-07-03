@@ -1,0 +1,71 @@
+select{
+    font-size: 35px;
+    color: black;
+    background-color: white;
+    /* margin-left: 45%;
+    margin-top: 20px; */
+    border-color: aqua;
+    border-color: primitive;
+    border: 3px solid rgb(0, 200, 255);
+    /* position: relative; */
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  
+  .left{
+    display: flex;
+    flex-direction: column;
+   padding-top: 30px;
+  margin-left: 15%;
+  
+  }
+
+  .chatbot{
+    margin-left: 50rem;
+    margin-bottom: 0;
+
+  }
+  
+  .opt{
+    padding: 10px;
+    
+  }
+  
+  .opt option{
+    border-color: aqua;
+  }
+  
+  
+  
+  .head2{
+    margin-left: 40%;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+  
+  
+  .head{
+    padding: 20px 20px;
+     margin-bottom: 20px;
+    color: black;
+  }
+  
+  .footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 22%;
+  }
+  
+  .btn{
+    color: aqua;
+    size:25px;
+  }
+
+  .ddddd{
+    display: inline;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: rgba(227, 7, 7, 0.775);
+    max-width: 300px;
+    border: 2px solid black;
+  }

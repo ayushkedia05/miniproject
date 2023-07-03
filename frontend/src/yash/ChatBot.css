@@ -1,0 +1,145 @@
+/* Chatbot container */
+.chatbot-container {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fade-in 0.5s ease;
+  }
+  
+  /* Chatbot header */
+  .chatbot-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .chatbot-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Chatbot messages */
+  .chatbot-messages {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding-right: 10px;
+  }
+  
+  .message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    animation: slide-up 0.3s ease;
+  }
+  
+  .user .avatar {
+    margin-right: 10px;
+  }
+  
+  .bot .avatar {
+    margin-left: 10px;
+  }
+  
+  p {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user p {
+    background-color: #e6f2ff;
+    color: #333;
+  }
+  
+  /* Chatbot form */
+  .chatbot-form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Animations */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .user-bubble {
+    background-color: #e6f2ff;
+    color: #333;
+    align-self: flex-end;
+  }
+  
+  .bot-bubble {
+    background-color: #d4f5d0;
+    color: #333;
+    align-self: flex-start;
+  }
+  
+  .message-bubble {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  
+  .user .message-bubble {
+    margin-left: auto;
+  }
+  
+  .bot .message-bubble {
+    margin-right: auto;
+  }
+  
